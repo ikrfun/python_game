@@ -10,13 +10,7 @@ class Hitbox:
         self.x = x
         self.y = y
         self.tp = tp
-    
-    def ball_bound(ball):
-        if self.tp == 'x':
-            ball.hit_x_bar()
-        
-        if self.tp == 'y':
-            ball.hit_y_bar()
+
 
     def check_hit(self,ball):
         if self.tp == 'x':
